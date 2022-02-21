@@ -14,3 +14,26 @@ body {
     text-decoration: none;
   }
 }
+
+#app {
+  margin: 0 auto;
+  width: 45%;
+}
+
+.basic {
+  display: flex;
+  padding: 30px;
+
+  .img,
+  .intro {
+    flex: 1;
+  }
+
+  .pic {
+    background-color: #ccc;
+    border-radius: 100%;
+    height: 100px;
+    overflow: hidden;
+    width: 100px;
+  }
+}
