@@ -1,9 +1,10 @@
 <template>
   <basicIntro />
   <skill />
-  <workExp />
   <project />
+  <workExp />
   <autobiography />
+  <link />
 </template>
 
 <script lang="ts">
@@ -14,10 +15,11 @@ import skill from "@/components/skill.vue";
 import workExp from "@/components/workExp.vue";
 import project from "@/components/project.vue";
 import autobiography from "@/components/autobiography.vue";
+import link from "@/components/link.vue";
 
 export default defineComponent({
   name: "App",
-  components: { basicIntro, skill, workExp, project, autobiography },
+  components: { basicIntro, skill, workExp, project, autobiography, link },
   setup() {
     return {};
   },

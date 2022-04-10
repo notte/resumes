@@ -4,8 +4,8 @@
       <div class="pic"></div>
     </div>
     <div class="intro">
-      <h3>XXX</h3>
-      <h4>XXXXXXXXXXXXXX</h4>
+      <h4>戴筱瑤</h4>
+      <h3>網頁設計師</h3>
     </div>
   </div>
 </template>
