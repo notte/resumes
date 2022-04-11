@@ -2,8 +2,8 @@
   <div class="workExp">
     <div class="item" v-for="(work, index) in works" :key="index">
       <p class="time">{{ work.time }}</p>
-      <h3 class="name">{{ work.name }}</h3>
-      <h4 class="company">{{ work.company }}</h4>
+      <h4 class="name">{{ work.name }}</h4>
+      <p class="company">{{ work.company }}</p>
     </div>
   </div>
 </template>
