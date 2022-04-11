@@ -4,7 +4,7 @@
   <project />
   <workExp />
   <autobiography />
-  <link />
+  <connect />
 </template>
 
 <script lang="ts">
@@ -15,14 +15,14 @@ import skill from "@/components/skill.vue";
 import workExp from "@/components/workExp.vue";
 import project from "@/components/project.vue";
 import autobiography from "@/components/autobiography.vue";
-import link from "@/components/link.vue";
+import connect from "@/components/connect.vue";
 
 export default defineComponent({
   name: "App",
   // https://blog.build-school.com/2020/11/03/effective-resume/
   // https://tw.alphacamp.co/blog/2018-06-27-18378
   // eslint-disable-next-line vue/no-unused-components
-  components: { basicIntro, skill, workExp, project, autobiography, link },
+  components: { basicIntro, skill, workExp, project, autobiography, connect },
   setup() {
     return {};
   },

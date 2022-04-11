@@ -40,6 +40,10 @@ body {
     flex: 1;
     flex-direction: column;
     justify-content: center;
+
+    h3 {
+      color: #7d3cff;
+    }
   }
 
   .img {
@@ -61,10 +65,11 @@ body {
   padding: 20px;
 
   p {
-    background-color: #ccc;
-    color: #fff;
+    // background-color: #333;
+    color: #333;
     display: flex;
-    margin: 5px;
+    font-weight: 900;
+    margin: 3px;
     padding: 1px 5px;
   }
 
@@ -82,8 +87,12 @@ body {
   padding: 20px;
 
   .item {
-    border-bottom: 1px dashed;
+    border-bottom: 1px dashed #5858585a;
     padding: 20px 0;
+
+    .company {
+      color: #585858;
+    }
   }
 
   .item:last-child {
@@ -101,6 +110,13 @@ body {
 
   .item {
     padding: 10px 0;
+    text-align: center;
+
+    .name {
+      font-weight: 900;
+      margin-bottom: 10px;
+      text-align: left;
+    }
 
     .img {
       display: flex;
@@ -115,10 +131,19 @@ body {
     }
 
     button {
+      background: #333;
+      border: 0;
+      border-radius: 3px;
+      color: #fff;
       cursor: pointer;
       margin: 3px;
       padding: 10px;
-      width: 40%;
+      width: 20%;
+    }
+
+    button:hover {
+      background: #7d3cff;
+      
     }
   }
 
@@ -130,4 +155,14 @@ body {
 .autobiography {
   padding: 20px;
   width: 100%;
+}
+
+.connect {
+  display: flex;
+  padding: 20px;
+
+  .mail,
+  .phone {
+    flex: 1;
+  }
 }
