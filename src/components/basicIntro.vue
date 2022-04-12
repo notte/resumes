@@ -1,7 +1,7 @@
 <template>
   <div class="basic">
     <div class="img">
-      <div class="pic"></div>
+      <div class="pic"><img src="../assets/me.jpg" alt="" /></div>
     </div>
     <div class="intro">
       <h4>戴筱瑤</h4>
