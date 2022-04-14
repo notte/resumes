@@ -80,15 +80,6 @@ body {
         background-color: #7d3cff;
     
     }
-
-    // p::after {
-    //   background-color: #000;
-    //   content: '';
-    //   display: inline-block;
-    //   height: 100%;
-    //   margin-left: 5px;
-    //   width: 1px;
-    // }
 }
 
 .workExp {
@@ -135,10 +126,11 @@ body {
                 flex: 1;
                 height: 180px;
                 margin: 3px;
+                overflow: hidden;
 
                 img {
                     height: 100%;
-                    width: 100%;
+                    width: auto;
                 }
             }
         }
