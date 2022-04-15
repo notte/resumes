@@ -3,7 +3,7 @@
   <skill />
   <project />
   <workExp />
-  <autobiography />
+  <!-- <autobiography /> -->
   <connect />
 </template>
 
